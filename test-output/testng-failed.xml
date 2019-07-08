@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restAssured.PostAndDeleteXml">
+      <class name="restAssured.LibApi">
         <methods>
-          <include name="getData"/>
-          <include name="postTest"/>
+          <include name="postLibrary" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- restAssured.PostAndDeleteXml -->
+      </class> <!-- restAssured.LibApi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

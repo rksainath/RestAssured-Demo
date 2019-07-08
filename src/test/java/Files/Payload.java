@@ -13,6 +13,11 @@ public class Payload {
 		return payld;
 
 	}
+	public static String getLibraryLoad(String isbn, String aisle) {
 
+		String payld = "{\n" + "\n" + "\"name\":\"Learn Appium Automation with Java\",\n" + "\"isbn\":\""+isbn+"\",\n"+ "\"aisle\":\""+aisle+"\",\n" + "\"author\":\"John foe\"\n" + "}\n" + " \n" + "";
+		return payld;
+
+	}
 	
 }
