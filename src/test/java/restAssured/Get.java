@@ -14,7 +14,7 @@ public class Get {
 
 		given().param("input", "Museum of Contemporary Art Australia").param("inputtype", "textquery")
 				.param("fields", "photos,formatted_address,name,rating,opening_hours,geometry")
-				.param("key", "AIzaSyB29u1pZcl7CgOcTCJglHjKS2VkdlgpdY4")
+				.param("key", "API KEY")
 
 				.when().get("/maps/api/place/findplacefromtext/json")
 

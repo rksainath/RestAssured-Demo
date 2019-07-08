@@ -20,7 +20,7 @@ public class GetNameResults {
 				.param("radius", "1500")
 				.param("type", "restaurant")
 				.param("keyword", "cruise")
-				.param("key", "AIzaSyB29u1pZcl7CgOcTCJglHjKS2VkdlgpdY4").log().all()
+				.param("key", "API KEY").log().all()
 
 				.when().get("/maps/api/place/nearbysearch/json")
 
