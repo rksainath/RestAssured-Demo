@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-08T06:38:54Z" name="Default suite" finished-at="2019-07-08T06:39:00Z" duration-ms="6289">
+    <groups>
+    </groups>
+    <test started-at="2019-07-08T06:38:54Z" name="Default test" finished-at="2019-07-08T06:39:00Z" duration-ms="6289">
+      <class name="restAssured.GetNameResults">
+        <test-method signature="ResultsTest()[pri:0, instance:restAssured.GetNameResults@75c072cb]" started-at="2019-07-08T06:38:54Z" name="ResultsTest" finished-at="2019-07-08T06:39:00Z" duration-ms="6243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultsTest -->
+      </class> <!-- restAssured.GetNameResults -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
